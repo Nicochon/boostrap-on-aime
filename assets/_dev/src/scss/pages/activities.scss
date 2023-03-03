@@ -1,0 +1,17 @@
+.activities{
+    .card{
+        padding:4px;
+        border-radius: 20px;
+        box-shadow: 0px 3px 15px rgba(0,0,0,0.1);
+    }
+        img{
+            height: 200px;
+            border-radius: 20px 20px 0 0;
+        }
+        .card-body{
+            height: 70px;
+        }
+            h4{
+                text-align: center;
+            }
+}

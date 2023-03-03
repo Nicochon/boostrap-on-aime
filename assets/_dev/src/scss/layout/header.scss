@@ -1,0 +1,22 @@
+*header{
+    a{
+        &:hover{
+            border-top:solid;
+            @media screen and (max-width: 576px){
+                border-top:none;    
+            }
+        }
+        
+        @media screen and (max-width: 576px ) {
+            border-bottom: solid 1px;
+            padding-bottom: 23px;
+            width: 100%;
+            text-align: center;
+            &:hover{
+                border-color: #0065fc;
+                border-bottom: solid 2px;
+            } 
+        }
+    }
+}
+

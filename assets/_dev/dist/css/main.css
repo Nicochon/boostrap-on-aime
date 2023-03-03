@@ -1,0 +1,105 @@
+* header a:hover {
+  border-top: solid;
+}
+@media screen and (max-width: 576px) {
+  * header a:hover {
+    border-top: none;
+  }
+}
+@media screen and (max-width: 576px) {
+  * header a {
+    border-bottom: solid 1px;
+    padding-bottom: 23px;
+    width: 100%;
+    text-align: center;
+  }
+  * header a:hover {
+    border-color: #0065fc;
+    border-bottom: solid 2px;
+  }
+}
+
+.filtres .search-filters .btn {
+  width: 80%;
+  border-radius: 20px;
+}
+@media screen and (max-width: 992px) {
+  .filtres .search-filters .btn {
+    width: 140px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .filtres .search-filters .btn {
+    width: 95%;
+  }
+}
+.filtres .search-filters .btn:hover {
+  background-color: #DEEBFF;
+}
+
+h1, h2 {
+  font-size: 22px;
+}
+
+h3 {
+  font-size: 18px;
+}
+
+h4, p, a {
+  font-size: 16px;
+  text-decoration: none;
+  color: black;
+}
+
+i {
+  color: #0065fc;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+@media screen and (min-width: 1200px) {
+  .items .hebergement {
+    height: 650px;
+  }
+}
+.items .card {
+  padding: 4px;
+  border-radius: 20px;
+  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.1);
+}
+.items img {
+  height: 121px;
+  border-radius: 20px 20px 0 0;
+}
+.items h4, .items p {
+  margin: 0;
+}
+
+@media screen and (min-width: 1200px) {
+  .items .photo-best .pop {
+    height: 650px;
+  }
+}
+.items .photo-best .card img {
+  height: 144px;
+  border-radius: 20px 0 0 20px;
+}
+
+.activities .card {
+  padding: 4px;
+  border-radius: 20px;
+  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.1);
+}
+.activities img {
+  height: 200px;
+  border-radius: 20px 20px 0 0;
+}
+.activities .card-body {
+  height: 70px;
+}
+.activities h4 {
+  text-align: center;
+}

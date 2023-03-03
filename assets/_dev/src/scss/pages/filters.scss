@@ -1,0 +1,19 @@
+.filters{
+    .search-filters{
+        .btn{
+            
+            width: 80%;
+            border-radius: 20px;
+            @media screen and (max-width:992px) {
+                width: 140px;
+            }                  
+            @media screen and (max-width:767px){
+                width: 95%;
+            }
+                &:hover{
+                    background-color: #DEEBFF;
+                }
+                  
+            }
+    }
+}
